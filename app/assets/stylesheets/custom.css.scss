@@ -43,3 +43,19 @@ $navbar-default-bg: #073B15;
   color: #fff;
   text-decoration: none;
 }
+html {
+  position: relative;
+  min-height: 100%;
+  }
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  }
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 65px;
+  background-color: #073B15;
+  }
