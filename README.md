@@ -1,24 +1,24 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+Section 4, Lec. 56
 
-* Configuration
+***  test-driven development:  ***
 
-* Database creation
+Recipe:
+-recipe should be valid
+-name is required
+-description is required
+-chef_id should be present **
+-set max length for name and description (perhaps a minimum too)
+-ActiveRecord Assertions (for testing)
 
-* Database initialization
 
-* How to run the test suite
+Chef: 
+-chefname should be present
+-email should be present
+-size restrictions for email & chefname
+-email address should be valid format
+-email should be unique, and case insensitive
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
